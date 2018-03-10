@@ -1,0 +1,8 @@
+# m h  dom mon dow   command
+ 00 23 *   *   *     sudo tar -zcf /var/backups/home.tgz /home/pi/*
+ 45 03 *   *   *     ./rpi-hdmi.sh off
+  0 07 *   *   *     sudo ./rpi-hdmi.sh on
+ 30 8  *   *   *     ./rpi-hdmi.sh off
+ 30 12 *   *   *     sudo ./rpi-hdmi.sh on
+  0 15 *   *   *     ./rpi-hdmi.sh off
+ 30 17 *   *   *     sudo ./rpi-hdmi.sh on
