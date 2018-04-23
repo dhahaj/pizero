@@ -1,445 +1,3 @@
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-sudo nano rpi-hdmi.sh 
-./rpi-hdmi.sh on
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-sudo nano rpi-hdmi.sh 
-chvt -h
-sudo chvt --help
-man chvt
-c
-ls
-ll 9874925-a160c02d00691009f9f234bc58c2afce2d960dfb/
-rmdir 9874925-a160c02d00691009f9f234bc58c2afce2d960dfb/
-ls
-sudo nano rpi-hdmi.sh 
-c
-./rpi-hdmi.sh on
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-sudo nano rpi-hdmi.sh 
-chvt 2
-sudo chvt 2
-sudo nano rpi-hdmi.sh 
-c
-sudo apt-get remove wolfram-engine wolframscript libreoffice
-df -h
-sudo -s
-sudo apt-get remove libreoffice-*
-sudo apt-get autoremove 
-cd /home/pi/.config/lxsession/LXDE-pi/
-la
-cat desktop.conf 
-ll
-vim.tiny desktop.conf 
-cat desktop.conf 
-c
-cat conf
-la
-ll
-las
-sudo vim.tiny 
-sudo vim.tiny autostart 
-c
-df -h
-sudo apt-get install midori
-midori 
-sudo bluetoothctl 
-sudo systemctl status bluetooth.service 
-sudo systemctl stop bluetooth.service 
-sudo systemctl status bluetooth.service 
-clear
-./rpi-hdmi.sh on
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-crontab -l
-crontab -e
-ls
-crontab -e
-ls
-crontab -l
-./rpi-hdmi.sh on
-time
-ntptime 
-ntptime --help
-ntptime -r
-crontab -e
-sync
-sudo apt-get install cpufrequtils 
-c
-sudp apt-get install cpufrequtils
-sudo apt-get install cpufrequtils
-cpufreq-info 
-c
-ls
-./rpi-hdmi.sh status
-crontab -l
-time
-ntptime
-crontab -e
-./rpi-hdmi.sh on
-cd
-cd .config/
-ls
-cd lxsession/
-ls
-cd LXDE-pi/
-ls
-ll
-nano autostart 
-sudo sync
-cat /sys/class/thermal/thermal_zone0/temp 
-echo "cat /sys/class/thermal/thermal_zone0/temp" > temp.sh
-chmod 755 temp.sh 
-ll
-mv temp.sh ~/
-cd
-ls
-./temp.sh 
-cpufreq-info 
-sudo cpufreq-set -g powersave
-cpufreq-info 
-./temp.sh 
-./rpi-hdmi.sh off
-cd .config/lxsession/LXDE-pi/
-ll
-nano autostart 
-r
-cd etc/
-ll
-cat services 
-c
-ls
-ls modprobe.d/
-cat modprobe.d/raspi-blacklist.conf 
-cat sysctl.d/99-sysctl.conf 
-cat sysctl.d/98-rpi.conf 
-c
-ls
-ls init.d/
-cat init.d/bluetooth 
-c
-sudo systemctl status bluetooth.service 
-sudo systemctl disable bluetooth.service 
-midori 
-dmesg 
-cd .config/lxsession/LXDE-pi/
-nano autostart 
-midori --help
-midori --help-all
-midori --help-execute
-nano autostart 
-cd .config/lxsession/LXDE-pi/
-cat autostart 
-midori -e Fulscreen http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0daa5
-midori Fulscreen http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0daa5
-midori -e Fullscreen http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0dDDDD
-midori --help
-midori --help-execute|more
-midori -e Fullscreen PrivateBrowsing http://dakboard.com/app?pebbf427eba2f9b9d9b4cf79622a0dDDDD
-midori --help
-midori --help-all
-midori -p -e Fullscreen --app=http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0dDDDD
-midori -e Fullscreen --app=http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0dDDDD
-midori -e Fullscreen --app="http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0dDDDD"
-cd .config/lxsession/LXDE-pi/
-cat autostart 
-nano autostart 
-cat autostart 
-cd .config/lxsession/LXDE-pi/
-cat autostart 
-midori -e Fullscreen --app="http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0daa5"
-cd .config/lxsession/LXDE-pi/
-cat autostart 
-midori -e Fullscreen -a http://dakboard.com/app?p=ebbf427eba2f9b9d9b4cf79622a0daa5
-nano autostart 
-c
-./temp.sh 
-ls
-ll
-rmdir Videos/ Pictures/ Music/
-ls
-ls python_games/
-sudo apt-get remove minecraft-pi claws-mail 
-iw
-iw|more
-r
-cd etc/
-ls
-ls modprobe.d/
-ls opt
-ls pam.d/
-ls profile.d/
-ls systemd/
-cat systemd/user.conf 
-cat systemd/system.conf 
-cat systemd/bootchart.conf 
-c
-ls
-cd
-r
-ls tmp/
-modprobe 
-sudo modprobe 
-sudo modprobe -h
-lsmod 
-sudo systemctl status bluetooth.service 
-sudo systemctl show-environment 
-c
-ls
-cd boot/
-ls
-cat config.txt 
-./rpi-hdmi.sh on
-sudo cpufreq-set -g performance
-sudo cpufreq-set -g powersave
-./rpi-hdmi.sh on
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-./temp.sh 
-c
-ls
-./temp.sh 
-sudo cpufreq-info 
-c
-ls Documents/
-ls Documents/Greenfoot\ Projects/
-cls
-c
-ls
-ls python_games/
-ls Desktop/
-rmdir Desktop/
-ls
-ls Downloads/
-ll Downloads/
-rm Downloads/9874925-a160c02d00691009f9f234bc58c2afce2d960dfb.zip 
-c
-ls
-ls Public/
-rmdir Public/
-ls Templates/
-rmdir Templates/
-ls
-./rpi-hdmi.sh off
-./rpi-hdmi.sh on
-mkdir Desktop
-ll
-./rpi-hdmi.sh on
-sudo ./rpi-hdmi.sh on
-time
-date
-crontab -l
-cal
-crontab -e
-cd
-la
-date
-la
-ll
-ll -a
-crontab -l
-date
-r
-cd home/
-ll
-la
-crontab -e
-c
-crontab -l
-date
-cd
-ll
-la
-ls .local/
-ls .local/share/
-la
-ll
-dmesg 
-sudo systemctl status cron.service 
-la
-tar -h
-tar --help|more
-crontab -l
-la
-ll
-ls -ltr
-ls -ltra
-ls .
-ls -ltra
-df -h
-cd .
-ll
-crontab -e
-sudo systemctl restart cron.service 
-sudo systemctl status cron.service 
-sudo systemctl status cron.service -l
-dmesg 
-r
-cd var/
-ll
-ll backups/
-crontab -l
-date
-ll
-cd backups/
-c
-l
-ll
-crontab -e
-sudo systemctl restart cron.service 
-sudo systemctl status cron.service -l
-crontab -l
-date
-ll
-ls
-sudo ./rpi-hdmi.sh on
-groups
-date
-sudo raspi-config 
-c
-date
-date --help
-timedatectl --help
-timedatectl set-ntp true 
-timedatectl status 
-ntptime 
-date
-sync
-sudo sync 
-crontab -e
-c
-r
-cd var/
-ll
-cd backups/
-ll
-c
-crontab -l
-tar -cfz /var/backups/home.tgz /home/
-sudo tar -cfz /var/backups/home.tgz /home/
-ll
-ll ~/
-la ~/
-sudo tar -zcf /var/backups/home.tgz /home/pi/
-ll
-file z
-sudo tar --help|more
-sudo tar -tvf z
-df
-c
-la
-ls -ltr
-sudo apt-get remove bluej
-c
-df -h
-ll
-sudo su
-sudo ./rpi-hdmi.sh on
-ll
-chown root rpi-hdmi.sh 
-sudo chown root rpi-hdmi.sh 
-ll
-sudo chgrp root rpi-hdmi.sh 
-ll
-crontab -l
-sudo crontab -l
-sudo crontab -e
-crontab -e
-c
-ll
-r
-ll home/
-ll home/pi/
-ll var/backups/
-cd var/backups/
-c
-sudo tar -tvf home.tgz home/pi/
-ll
-df
-sudo rm home.tgz 
-df
-ll
-sudo rarp -h
-cd
-ls
-./temp.sh 
-crontab 
-crontab -h
-crontab -r
-crontab -l
-sudo crontab -l
-la
-sudo crontab -e
-sudo crontab -l
-date
-r
-cd var/backups/
-c
-ll
-cd /var/backups/
-ll
-sudo crontab -l
-date
-sudo crontab -e
-date
-ll
-sudo tar -tvf home.tgz 
-sudo apt-get remove greenfoot scratch scratch2
-sudo apt-get autoremove 
-sudo apt-get autoclean 
-sudo apt-get clean 
-df
-sudo apt-get remove realvnc-vnc-*
-cd
-./rpi-hdmi.sh off
-sudo ./rpi-hdmi.sh on
-./rpi-hdmi.sh off
-sudo passwd pi
-ssh-keygen 
-c
-ssh pi@hassbian
-ls
-./temp.sh 
-crontab -l
-sudo crontab -l
-sudo crontab -l > cron.txt
-cat cron.txt 
-sudo crontab -r
-sudo crontab -l
-crontab -e
-crontab -l
-ls
-la
-ls /
-la
-ls .ssh/
-ls .local/
-ls .local/share/
-ls .local/share/applications/
-c
-ls
-c
-l
-ll
-./dropbox_uploader.sh 
-c
-./dropbox_uploader.sh 
-./dropbox_uploader.sh list
-./dropbox_uploader.sh delete upload
-./dropbox_uploader.sh list
-./dropbox_uploader.sh mkdir pizero
-c
-ls
-ls Downloads/
-ls Documents/
-rmdir Documents/Greenfoot\ Projects/
-rmdir -r Documents/Greenfoot\ Projects/
-rm -r Documents/Greenfoot\ Projects/
-ll
 rm -r Documents/Scratch\ Projects/
 ll Documents/
 ll Documents/BlueJ\ Projects/
@@ -1998,3 +1556,445 @@ man command
 man date
 date
 c
+temp
+dmesg 
+c
+ls
+ll
+la
+lt
+echo "alias lt='ls -ltrA'" >> .bashrc 
+sudo su
+lt
+alias lt='ls -ltrA'
+lt
+cat .profile 
+pip list
+pip show picamera
+pip3 list
+pip3 show python-debian
+cd /usr/lib/python3/dist-packages/
+ls
+cd picamera
+ls
+cat camera.py 
+cat camera.py |more
+c
+cd ..
+ls
+ls apt
+ls debian
+ls pgzero
+ls RPi
+ls RPi/GPIO/
+cat RPi/GPIO/__init__.py |more
+ls PIL
+ls
+ls gpiozero
+cd gpiozero
+c
+ls
+vim.tiny boards.py 
+vim.tiny devices.py 
+ls pins/
+cd ..
+ls
+js gi
+ls gi
+ls itsdangerous-0.24.egg-info/
+ls gpiozerocli/
+cd gpiozerocli/
+vim.tiny pinout.py 
+python
+python3
+c
+cd
+c
+temp
+on
+temp
+cpufreq-info 
+sudo cpufreq-set -g powersave
+cpufreq-info 
+temp
+r
+cd boot/
+cat config.txt 
+cpufreq-info 
+temp
+rpcinfo --help
+rpi-update --help
+rpi-update -h
+sudo rpi-update -h
+man rpi-update
+sudo rpi-update 
+df
+cd
+git status 
+ls
+c
+git init
+ls
+ls Downloads/
+ls Documents/
+ls Desktop/
+ls git/
+git status 
+touch .gitignore
+touch README.md
+ls .config/
+ll
+ls git
+ls git/raspberrypi-ui-mods/
+ls git/raspberrypi-ui-mods/debian/
+ls git/CurrantPi/
+c
+ls
+la
+ll
+ll -a
+echo ".gitignore" >> .gitignore 
+git status 
+ls .cache/
+echo ".cache" >> .gitignore 
+ls .cache/
+git status 
+ls .local/
+ls .local/share/
+ls .local/share/applications/
+c
+ls
+la
+ll -a
+echo ".oracle_jre_usage">>.giti
+echo ".oracle_jre_usage">> .gitignore 
+rm .giti
+c
+ll -a
+echo ".thumbnails" >> .gitignore 
+git status 
+echo "/testpip/" >> .gitignore 
+git status 
+git add .bash*
+git status 
+git add .Xauthority .dropbox_uploader .profile .xsession-errors*
+git add rpi-hdmi*
+git add wpa_supplicant.conf off on crontab*
+git status 
+git add README.md cron.txt dropbox_uploader.sh freq.sh gist-rpi-hdmi.sh git/*
+git status 
+git add temp.sh .config/*
+git status 
+echo ".config" >> .gitignore 
+git status 
+git add temp.sh Documents/*
+git status 
+ls .local/
+ls .local/share/
+ls .local/share/webkit/
+ls .local/share/webkit/databases/
+ll .local/share/webkit/databases/
+c
+git status 
+echo ".local">> .gitignore 
+echo ".themes" >> .gitignore 
+ls .pki/
+ls .pki/nssdb/
+c
+git status 
+git add .ssh/*.*
+git add .pki/*.*
+echo ".gstreamer-0.10" >> .gitignore 
+git status 
+echo "/.ssh/" >> .gitignore 
+git status 
+git add .selected_editor 
+git status 
+git commit -m "init."
+git config --global user.email dhahaj@gmail.com 
+git config --global user.name "Daniel"
+git commit -m "init."
+c
+git status 
+echo ".gitconfig" >> .gitignore 
+git status 
+git remote add https://github.com/dhahaj/pizero.git
+git remote add origin https://github.com/dhahaj/pizero.git
+git status 
+git push 
+git push -u origin master 
+git status 
+vim.tiny README.md 
+c
+git add README.md 
+git commit -m "updated readme.md."
+git push
+temp
+cpufreq-i
+cpufreq-info 
+c
+temp
+c
+temp
+r
+cd boot
+sudo vim.tiny config.txt 
+sudo sync
+sudo reboot 
+c
+temp
+sudo cpufreq-info 
+sudo cpufreq-set --help
+sudo cpufreq-set --max 600
+su
+sudo su
+sudo cpufreq-info 
+temp
+sudo cpufreq-info 
+r
+cd boot
+sudo vim.tiny config.txt 
+cd
+c
+ls
+temp
+off
+temp
+sudo cpufreq-info 
+temp
+c
+ls
+temp
+dmesg 
+c
+lsusb 
+off
+temp
+sudo su
+off
+temp
+off
+temp
+cpufreq-info 
+sudo cpufreq-set -h
+sudo cpufreq-set -u 400
+cpufreq-info 
+sudo cpufreq-set -u 400MHz
+cpufreq-info 
+temp
+sudo cpufreq-set -h
+sudo cpufreq-set -g powersave
+sudo cpufreq-set -u 400MHz 
+cpufreq-info 
+temp
+cpufreq-info 
+c
+off
+sudo su
+temp
+off
+temp
+off
+temp
+off
+temp
+off
+temp
+off
+temp
+cpufreq-info 
+r
+cd boot
+ls
+cd
+ln -h
+ln --help
+ln -s -T /boot boot
+ls
+cd boot
+ls
+off
+temp
+cat config.txt |more
+twm
+temp
+cpufreq-info 
+sudo cpufreq-set -g ondemand
+cpufreq-info 
+c
+temp
+sudo su
+temp
+cpufreq-info 
+ll
+ls /
+ln --help
+ln -s -T /srv srv
+ll
+file srv
+ls /
+ll
+ll /
+ll /boot.bak/
+cat /boot/config.txt 
+cd boot
+c
+sudo vim.tiny config.txt 
+c
+sudo sync 
+off
+temp
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+sudo apt-get clean 
+df
+cd
+c
+gs
+git status us
+c
+git config user.email 
+git config --system  user.email 
+git config --system  user.email dhahaj@gmail.com
+sudo git config --system  user.email dhahaj@gmail.com
+git config --system  user.email 
+git config --global   user.email dhahaj@gmail.com
+git config --global user.email dhahaj@gmail.com
+git config --global user.email 
+git config --system  user.email 
+git notes 
+git help notes 
+git credential 
+sudo reboot 
+temp
+cpufreq-info 
+sudo cpufreq-set --help
+sudo cpufreq-set -u 400MHz
+cpufreq-info 
+temp
+off
+c
+off
+temp
+off
+temp
+c
+temp
+sudo shutdown -hP now
+off
+temp
+off
+temp
+sudo cpufreq-info 
+sudo cpufreq-set -u 400MHz
+sudo cpufreq-info 
+on
+cpufreq-info 
+off
+temp
+off
+temp
+cpufreq-info 
+off
+temp
+off
+sudo apt-get update && sudo apt-get upgrade -y
+temp
+c
+gs
+ll
+ls srv
+ls /srv/
+off
+temp
+off
+temp
+ifconfig 
+sudo apt update
+sudo apt upgrade
+sudo apt clean
+sudo apt-get clean
+df
+dmesg 
+temp
+cpufreq-info 
+c
+on
+temp
+ofd
+off
+r
+cd etc/
+ls
+cat network/interfaces
+sudo wpa_cli 
+temp
+off
+temp
+off
+temp
+update && upgrade sudo apt-g
+sudo apt-get autoclean 
+sudo apt-get autoremove 
+sudo apt-get clean 
+temp
+ifconfig 
+ping 192.168.1.4
+c
+df
+temp
+cpufreq-info 
+sudo cpufreq-set -g powersave
+cpufreq-info 
+temp
+update
+sudo apt-get install fizsh
+c
+la
+zsh
+on
+zsh
+off
+temp
+off
+temp
+update
+sudo apt-get install zsh
+zsh
+temp
+update && upgrade 
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+sudo apt-get clean 
+df
+temp
+dmesg 
+c
+ll
+update
+c
+sudo apt-get install gnome-schedule
+c
+df
+sudo apt-get install weavedconnectd
+c
+off
+temp
+cpufreq-info 
+sudo cpufreq-set -g ondemand
+cpufreq-info 
+c
+temp
+sudo weavedinstaller
+c
+df
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+sudo apt-get clean 
+df
+temp
+ls
+ls -ltr
+reboot
+sudo reboot
