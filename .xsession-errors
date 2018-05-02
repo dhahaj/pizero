@@ -1,6 +1,0 @@
-Xsession: X session started for pi at Sun Apr 22 09:10:33 CDT 2018
-localuser:pi being added to access control list
-** Message: main.vala:99: Session is LXDE-pi
-** Message: main.vala:100: DE is LXDE
-** Message: main.vala:131: log directory: /home/pi/.cache/lxsession/LXDE-pi
-** Message: main.vala:132: log path: /home/pi/.cache/lxsession/LXDE-pi/run.log

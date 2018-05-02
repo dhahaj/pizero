@@ -1,4 +1,11 @@
 # Lines configured by zsh-newuser-install
+
+alias r='cd /'
+alias la='ls -la'
+alias ll='ls -lA'
+alias c='clear'
+
+
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -11,8 +18,3 @@ zstyle :compinstall filename '/home/pi/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-alias c='clear'
-alias r='cd /'
-alias la='ls -la'
-alias ll='ls -lA'
-

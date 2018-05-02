@@ -1,381 +1,3 @@
-rm -r Documents/Scratch\ Projects/
-ll Documents/
-ll Documents/BlueJ\ Projects/
-ls python_games/
-tar --help |more
-tar -czf python_gmaes.tgz python_games/*
-ll
-rm -r python_games/*
-ll python_games/
-rmdir python_games/
-ll
-./dropbox_uploader.sh upload *.sh pizero/
-./dropbox_uploader.sh upload *.txt pizero/
-cat rpi-hdmi.sh 
-la
-./dropbox_uploader.sh upload .bashrc pizero/
-c
-./temp.sh 
-cpufreq-info 
-c
-ls
-./temp.sh 
-cpufreq-info 
-ll
-./dropbox_uploader.sh 
-./dropbox_uploader.sh list
-./dropbox_uploader.sh list pizero/[B
-r
-ll
-ll boot/
-cd boot/
-cat config.txt 
-~/dropbox_uploader.sh upload config.txt pizero/boot/
-c
-~/dropbox_uploader.sh list /pizero
-~/dropbox_uploader.sh list /pizero/boot
-ll
-cd..
-r
-ls
-ls root/
-sudo ls root/
-ls srv/
-ls opt/
-cd opt/pigpio/
-ls
-cd cgi/
-ls
-la
-cd ..
-la
-r
-ls opt/
-ls opt/vc/
-ls opt/vc/bin/
-ls sys/
-ls etc/
-r
-cd etc/network/
-cat interfaces
-r
-cd etc/wpa_supplicant/
-ls
-cat wpa_supplicant.conf 
-sudo cat wpa_supplicant.conf 
-~/dropbox_uploader.sh upload wpa_supplicant.conf /pizero/wpa_supplicant/
-sudo ~/dropbox_uploader.sh upload wpa_supplicant.conf /pizero/wpa_supplicant/
-sudo cp wpa_supplicant.conf ~/
-ll
-cd ../network/
-ls
-cp interfaces ~/
-cd
-c
-ls
-ll
-sudo chown pi:pi wpa_supplicant.conf 
-ll
-./dropbox_uploader.sh upload wpa_supplicant.conf /pizero/etc/wpa_supplicant/
-./dropbox_uploader.sh upload interfaces /pizero/etc/network/
-./dropbox_uploader.sh list pizero/etc
-c
-ll
-rm interfaces 
-rm wpa_supplicant.conf 
-ll
-./dropbox_uploader.sh list
-./dropbox_uploader.sh list /pizero
-cat gist.txt 
-cd Downloads/
-cd
-ls
-c
-nano gist.txt 
-ls
-mv gist.txt rpi-hdmi.sh
-ls
-mv gist.txt gist-rpi-hdmi.sh
-ls
-chmod +x gist-rpi-hdmi.sh 
-ll
-./gist-rpi-hdmi.sh 
-ll
-cat 9874925 
-curl -h
-curl -h|more
-./temp.sh 
-c
-la
-./temp.sh 
-sudo 
-cpufreq-info 
-c
-cpufreq-info 
-c
-sudo ./rpi-hdmi.sh on
-cpufreq-info 
-sudo cpufreq-set -g ondemand
-cpufreq-info 
-dmesg 
-c
-la
-./rpi-hdmi.sh off
-exit
-sudo ./rpi-hdmi.sh on
-exit
-df
-df -h
-./temp.sh 
-cpufreq-info 
-r
-cd boot/
-ll
-cat config.txt 
-c
-sudo ./rpi-hdmi.sh on
-sudo reboot 
-c
-ll
-cat 9874925 
-c
-ll
-rm 9874925 
-ll
-./temp.sh 
-cpufreq-info 
-c
-ls
-ls Downloads/
-ls Documents/
-ls Desktop/
-r
-ls
-ls tmp/
-ls bin/
-c
-cd boot/
-c
-ls
-sudo nano config.txt 
-cd
-ls
-echo "/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" > freq.sh
-echo "cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" > freq.sh
-echo "/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" > freq.sh
-ls
-chmod +x freq.sh 
-./freq.sh 
-echo "sudo cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq" > freq.sh
-./freq.sh 
-sudo cpufreq-set -g powersave
-./freq.sh 
-./temp.sh 
-c
-ls
-./freq.sh 
-./temp.sh 
-cd /boot/
-ls
-sudo nano config.txt 
-sudo ./rpi-hdmi.sh on
-ps
-./rpi-hdmi.sh off
-sudo ./rpi-hdmi.sh on
-pidof midori 
-sudo apt-get update && sudo apt-get upgrade -y
-df
-sudo reboot 
-c
-sudo ./rpi-hdmi.sh on
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get autoremove 
-sudo apt-get autoclean 
-sudo apt-get clean 
-df -h
-./temp.sh 
-./freq.sh 
-sudo cpufreq-info 
-sudo cpufreq-set -g conservative
-sudo cpufreq-info 
-sudo cpufreq-set -g powersave
-sudo cpufreq-info 
-./temp.sh 
-cpufreq-info 
-sudo cpufreq-set -g ondemand
-cpufreq-info 
-c
-sudo apt-get update 
-./temp.sh 
-cpufreq-info 
-sudo cpufreq-set -g performance
-cpufreq-info 
-./temp.sh 
-cpufreq-info 
-./temp.sh 
-cpufreq-info 
-c
-ls
-./temp.sh 
-./freq.sh 
-cpufreq-info 
-c
-l
-cat cron.txt 
-ls Downloads/
-ls Documents/
-ls Desktop/
-./dropbox_uploader.sh 
-./dropbox_uploader.sh list /
-ll
-r
-ls
-ls etc/
-c
-ls
-ls opt/q
-ls opt/
-ls bin/
-sync 
-dmesg 
-sudo rfkill 
-sudo rfkill list 
-sudo rfkill block bluetooth 
-sudo rfkill list 
-sudo rfkill unblock bluetooth 
-sudo rfkill list 
-sudo bluetoothctl 
-ifconfig 
-iwconfig 
-cd etc/network/
-cat interfaces
-cd ../wpa_supplicant/
-ls
-cat wpa_supplicant.conf 
-sudo cat wpa_supplicant.conf 
-c
-ls
-~/dropbox_uploader.sh 
-~/dropbox_uploader.sh -p upload wpa_supplicant.conf pizero/ 
-sudo ~/dropbox_uploader.sh -p upload wpa_supplicant.conf pizero/ 
-c
-sudo cp wpa_supplicant.conf ~/
-cd
-ls
-ll
-sudo chown pi:pi wpa_supplicant.conf 
-ll
-chmod 755 wpa_supplicant.conf 
-ll
-chmod 777 wpa_supplicant.conf 
-ll
-chmod -x wpa_supplicant.conf 
-;;
-ll
-./dropbox_uploader.sh -p upload wpa_supplicant.conf pizero/
-./dropbox_uploader.sh list pizero
-./dropbox_uploader.sh list pizero/etc
-./temp.sh 
-./freq.sh 
-sudo ./rpi-hdmi.sh on
-sudo reboot 
-sudo shutdown -hP now
-sudo reboot 
-c
-./temp.sh 
-./rpi-hdmi.sh status
-./rpi-hdmi.sh off
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get autoremove 
-sudo apt-get autoclean 
-sudo apt-get clean 
-df -h
-sudo shutdown -hP now
-sudo ./rpi-hdmi.sh on
-df -h
-./temp.sh 
-ll
-./freq.sh 
-./dropbox_uploader.sh 
-./dropbox_uploader.sh list
-./dropbox_uploader.sh list pizero
-crontab 
-crontab -l
-crontab -e
-r
-cd backups/ 
-ls
-cd
-ls
-cat cron.txt 
-r
-cd var/backups/
-ll
-ls -ltr
-gunzip 
-gunzip -h
-c
-ls
-gunzip -l home.tgz 
-~/dropbox_uploader.sh 
-~/dropbox_uploader.sh upload home.tgz pizero/
-cd
-ls
-ls Downloads/
-cat dropbox_uploader.sh 
-ll
-nano dropbox_uploader.sh 
-./rpi-hdmi.sh off
-sudo apt-get update && sudo apt-get upgrade 
-cd
-sudo ./rpi-hdmi.sh on
-./temp.sh 
-./rpi-hdmi.sh off
-./temp.sh 
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get autoremove 
-df
-df -h
-ifconfig 
-raspi-gpio 
-raspi-gpio help
-raspi-gpio get
-raspi-gpio funcs
-sudo ./rpi-hdmi.sh on
-./temp.sh 
-cpufreq-info 
-sudo cpufreq-set -g powersave 
-cpufreq-info 
-./temp.sh 
-sudo shutdown -hP now
-c
-./temp.sh 
-sudo apt-get pdate && sudo apt-get upgrade -y
-sudo apt-get update && sudo apt-get upgrade -y
-c
-sudo reboot 
-./temp.sh 
-./freq.sh 
-./temp.sh 
-c
-./rpi-hdmi.sh off
-./temp.sh 
-./freq.sh 
-sudo cpufreq-set -g ondemand
-./freq.sh 
-sudo cpufreq-set -g powersave
-./freq.sh 
-./temp.sh 
-sudo apt-get update && sudo apt-get upgrade -y
-df -h
-sudo apt-get autoremove 
-sudo apt-get autoclean 
-sudo apt-get clean 
-df -h
-cd /boot/
-c
-ls
-cat config.txt | less
 sudo nano config.txt 
 sudo raspi-config 
 c
@@ -1998,3 +1620,381 @@ ls
 ls -ltr
 reboot
 sudo reboot
+temp
+fizsh 
+c
+df
+la
+gst
+git status 
+git add .fizsh/*.*
+git status 
+git add .fizsh/*
+git status 
+git add .fizsh/.*
+git status 
+git commit -m "update."
+git push  origin master 
+c
+fizsh 
+temp
+off
+temp
+sudo cpufreq-set -g powersave
+sudo cpufreq-info 
+temp
+update .&
+sudo apt-get update &
+ls
+temp
+df
+c
+ls
+temp &
+temp & upgrade 
+off
+temp
+cpufreq-info 
+temp
+ifconfig 
+update &
+date
+c
+df
+df _h
+df -h
+c
+df
+sudo apt-get dist-upgrade -y &
+ll
+temp
+off
+temp
+df
+sudo apt-get autoclean 
+sudo apt-get clean 
+df
+temp
+sudo cpufreq-i1
+sudo cpufreq-info 
+off
+temp
+ifconfig 
+sudo reboot 
+ifconfig 
+sudo wpa_cli 
+temp
+gst
+git status 
+r
+cd
+ln -s /boot boot
+sudo ln -s /boot boot
+ln -s /boot ~/
+ll
+cd boot
+ll
+cat wpa_supplicant.txt 
+cd
+ln -s /etc .
+ll
+cd etc
+ll
+ll wpa_supplicant/
+cd network/
+ll
+cat interfaces
+cd ../wpa_supplicant/
+ll
+cat wpa_supplicant.conf 
+sudo cat wpa_supplicant.conf 
+man wpa_supplicant.conf 
+cd
+c
+ifconfig 
+sudo wpa_cli 
+fizsh 
+c
+la
+ls .fizsh/
+cat .zshrc 
+ls
+la
+./freq.sh 
+sudo cpufreq-info 
+temp
+cd .fizsh/
+la
+cat .fizsh
+cat .fizshrc 
+echo ../.bashrc >> .fizshrc 
+fizsh 
+cd
+cat .bashrc > .fizsh/.fizshrc 
+fizsh 
+c
+avr-evtd --help
+man avr-evtd
+sudo apt-get install gcc-4.4-doc 
+df
+temp
+freq
+c
+echo "sudo apt-get install task-c-devel gcc-docs">dolater.sh
+chmod +x dolater.sh 
+ll
+temp
+freq
+off
+temp
+nano .bashrc 
+c
+man avr-g++
+man avr-gcc
+avr-gcc --help
+avr-c++ --help
+avr-man --help
+c
+sudo apt-get install doc-base
+sudo apt-get install mvn
+sudo apt-get install maven
+df
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+sudo apt-get clean 
+df
+sudo apt-get install maven2
+c
+mkdir avr
+cd avr/
+git clone https://github.com/dhahaj/ER-Firmware
+cd ER-Firmware/
+cd src/
+ls
+la
+make clean 
+make hex
+ll
+file ER-Firmware.out
+pushd .
+cd
+ls
+file testpip/
+ls testpip/
+ls testpip/bin/
+rm dolater.sh 
+gst
+cat wpa_supplicant.conf 
+nano wpa_supplicant.conf 
+c
+fizsh 
+c
+gst
+git status 
+git add .fizsh/.f*
+git status 
+git add etc freq
+git rm freq.sh 
+git status 
+cat .bashrc 
+vim .bashrc 
+vim.tiny .bashrc 
+zsh
+gat
+gst
+vim.tiny 
+vim.tiny .bashrc 
+fizsh 
+c
+gat
+gst
+git add .bashrc 
+gst
+cd avr/ER-Firmware/src/
+vim.tiny makefile 
+make clean 
+ll
+make stats 
+ll
+make clean 
+ll
+make writeflash 
+mkdir src
+make clean 
+make hex 
+ll
+file ER-Firmware.out.map 
+cat ER-Firmware.out.map |less
+vim.tiny makefile 
+c
+make clean 
+make hex 
+ll
+touch src/extras.h 
+cd src/
+vim.tiny extras.h 
+cd ..
+make clean 
+make hex 
+vim.tiny makefile 
+make clean 
+make hex 
+ls src/
+ll
+vim.tiny makefile 
+make clean 
+mv src/extras.h src/extras.c
+make hex 
+vim.tiny makefile 
+make hex 
+ll
+ll src/
+file main.lst 
+cat main.lst |less
+c
+make clean 
+ll src/
+sudo apt-get install avrdude
+c
+make clean 
+make install 
+ll
+l src/
+c
+temp
+ls
+cd avr
+ls
+cd ER-Firmware/
+ls
+cd src/
+ls
+make clean 
+make hex
+temp
+ifconfig 
+r
+cd etc/
+ls wpa_supplicant/
+cat wpa_supplicant/wpa_supplicant.conf 
+sudo cat wpa_supplicant/wpa_supplicant.conf 
+sudo nano wpa_supplicant/wpa_supplicant.conf 
+sudo cat wpa_supplicant/wpa_supplicant.conf 
+sudo wpa_cli 
+c
+r
+cd boot
+ls
+cat wpa_supplicant.txt 
+mv wpa_supplicant.txt ~/
+sudo mv wpa_supplicant.txt ~/
+c
+sudo cat config.txt 
+aync
+sync
+sudo reboot 
+temp
+sudo cpufreq-set -g powersave
+temp
+off
+temp
+c
+ll
+ifconfig 
+iwconfig 
+sudo iwlist wlan0 scan
+iwlist --help
+c
+sudo iwlist wlan0 scan
+c
+temp
+on
+temp
+on
+temp
+cpufreq-info 
+sudo cpufreq-set -g conservative
+cpufreq-info 
+temp
+c
+temp
+cpufreq-info 
+temp
+df
+zsh
+c
+temp
+off
+temp
+teml
+temp
+logout
+pkg update
+pkg upgrade
+temp
+off
+temp
+logout
+c
+temp
+sudo cpufreq-info 
+sudo cpufreq-set -g ondemand
+temp
+sudo cpufreq-info 
+temp
+echo "sudo cpufreq-set -g performance" > performance
+chmod +x performance 
+./performance 
+temp
+sudo cpufreq-info 
+echo "sudo cpufreq-set -g powersave" > powersave
+chmod +x powersave 
+whereis temp
+sudo ln -s /usr/bin/ powersave 
+sudo ln -s /usr/bin/powersave powersave 
+cd /usr/bin/
+c
+ls
+c
+df
+temp
+sudo ln -s powerave ~/powersave 
+sudo ln -s ~/powersave powersave
+sudo ln -s ~/performance performance
+c
+cd
+r
+whatis poweroff 
+whatis termio
+whatis termios
+whatis ls
+whatis pwd
+whatis su
+whatis sudo
+whatis xargs
+whatis xset
+whatis xrdp
+whatis xauth
+whatis pic
+whatis pg
+whatis avr-dlltool 
+whatis avr_io
+avr_io 
+whatis os-release 
+oclock 
+whatis lppasswd 
+whatis lsmod 
+whatis lnstat 
+lnstat 
+whatis netstat 
+whatis cd
+whatis toascii 
+whatis taskset
+whatis todo 
+whatis tabs 
+tabs
+whatis tdelete 
+whatis ranlib 
+temp
+powersave 
+temp
